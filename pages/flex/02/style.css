@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffaf2;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  height: 100vh;
+}
+
+span {
+  color: rgb(33, 45, 89, 0.5);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212d59;
+}
+
+.container {
+  background: #ffffff;
+  box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
+  border-radius: 15px;
+}
+
+.container a {
+  padding: 18px 82px;
+  background: #2f2d2c;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.alert-satisfied {
+  width: 519px;
+  margin-right: 58px;
+}
+
+.alert {
+  padding-right: 89px;
+  padding-left: 89px;
+  padding-bottom: 55px;
+  text-align: center;
+}
+
+.alert-satisfied .btn-close {
+  width: 100%;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 11px;
+}
+
+.alert h2 {
+  margin-bottom: 72px;
+}
+
+.group-icons {
+  display: flex;
+  margin-bottom: 85px;
+}
+
+.icon img {
+  margin-bottom: 15px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.alert-thanks {
+  width: 374px;
+}
+
+.alert-thanks {
+  text-align: center;
+}
+
+.alert-thanks .btn-close {
+  width: 100%;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 1px;
+}
+
+.alert-btns {
+  margin-bottom: 35px;
+}
+
+.alert-thanks h2 {
+  margin-bottom: 40px;
+}
+
+.alert-thanks img {
+  margin-bottom: 15px;
+}
+
+.alert-thanks p {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212d59;
+}
+
+.alert-btns a {
+  padding: 18px 44px;
+  margin-left: 34px;
+}

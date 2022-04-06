@@ -1,0 +1,44 @@
+body {
+  background: #456392;
+  font-family: "Mulish", sans-serif;
+}
+
+div {
+  background: #ffff;
+  width: 608px;
+  border-radius: 20px;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 90px;
+}
+
+img {
+  border-radius: 50%;
+  border: 16px solid #ecf3fc;
+  margin-bottom: 44px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 5px;
+  color: #131e30;
+}
+
+.primeiro-paragrafo {
+  margin-top: 92px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+span {
+  color: #131e30;
+}
+
+p,
+span {
+  font-size: 36px;
+}

@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.container-friends {
+  background: #ffffff;
+  box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+  border-radius: 10px;
+  padding: 60px 50px 54px 50px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 33px;
+  align-items: flex-end;
+}
+
+.box-top a {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.box-main {
+  display: flex;
+}
+
+.box {
+  padding: 25px 35px 6px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-right: 9px;
+}
+
+.last-box {
+  margin-right: 0px;
+}
+
+.box h2 {
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+
+.btn-soma {
+  background: #000000;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.container-contacts {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+  border-radius: 15px;
+  padding: 59px 50px 48px 50px;
+  margin-bottom: 60px;
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 62px;
+}
+
+.title-number {
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.photo-perfil {
+  border-radius: 50%;
+  width: 66px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.list-text h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.list-text span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.list-text {
+  margin-right: 131px;
+  margin-left: 20px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 60px;
+  padding: 18px 30px;
+  text-align: center;
+}

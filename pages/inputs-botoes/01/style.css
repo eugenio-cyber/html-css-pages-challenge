@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background: #9aa6cf;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+}
+.container {
+  width: 693px;
+  background: #ffffff;
+  box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+  border-radius: 10px;
+  padding: 70px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container h2 {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputs label {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.inputs input {
+  all: unset;
+  padding: 26px 25px;
+  border: 1px solid #ced5ec;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.inputs input:focus {
+  border: 1px solid #5f82ff;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.last {
+  margin-left: 15px;
+}
+
+.container button {
+  all: unset;
+  text-align: center;
+  padding: 45px 0px 45px 0px;
+  background: #5f82ff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.container button:hover {
+  background: #093df3;
+  box-shadow: 0px 7px 24px rgba(9, 61, 243, 0.3);
+}
+
+.container .last-p {
+  margin-bottom: 27px;
+}

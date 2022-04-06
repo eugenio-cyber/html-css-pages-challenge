@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(255, 106, 149, 0.1);
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.container-first {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-second {
+  display: flex;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.perfil-first {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-first .perfil-photo {
+  border-radius: 50%;
+  border: 8px solid #ffffff;
+  width: 84px;
+  box-shadow: 0px 8px 22.5px -7.5px rgba(2, 5, 132, 0.2);
+  margin-right: 29px;
+}
+
+.perfil-first .perfil-text h2 {
+  margin-bottom: 10px;
+}
+
+.perfil-text h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 22px;
+  color: #202142;
+}
+
+.perfil-text span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #202142;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+
+.light {
+  color: #202142;
+  background: #ffffff;
+  border: 1px solid #a4a4cb;
+}
+
+.light img {
+  color: #202142;
+}
+
+.dark {
+  background: #202142;
+  color: #ffffff;
+}
+
+.btn img {
+  margin-right: 10px;
+}
+
+.designs-first img:last-child {
+  margin-right: 0px;
+}
+
+.designs-first img {
+  width: 164px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.perfil-second {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 143px;
+}
+
+.perfil-second .perfil-photo {
+  width: 73px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 7px solid #ffffff;
+  box-shadow: 0px 7.04px 19.8px -6.6px rgba(2, 5, 132, 0.2);
+}
+
+.perfil-second .perfil-text h2 {
+  margin-bottom: 5px;
+}
+
+.perfil-second .perfil-text .btn {
+  margin-top: 20px;
+}
+
+.designs-second {
+  display: flex;
+}
+
+.designs-second img:last-child {
+  margin-right: 0px;
+}
+
+.designs-second img {
+  width: 216px;
+  margin-right: 20px;
+}

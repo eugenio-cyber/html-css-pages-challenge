@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background: url(assets/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 34px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 105px;
+}
+
+header img {
+  margin-left: 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  margin-right: 47px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #24303e;
+  font-family: "Fraunces", serif;
+  background: #ffffff;
+  padding: 16px 31px;
+  border-radius: 28px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-section h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 56px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 96px;
+}
+
+.hero-section img {
+  width: 30px;
+}
+
+.image-header {
+  width: 1000px;
+}
+
+.card-section {
+  display: flex;
+  max-height: 720px;
+}
+
+.card-reverse {
+  flex-direction: row-reverse;
+}
+
+.card {
+  background: #ffffff;
+  padding: 157px 110px 157px 165px;
+  width: 50%;
+}
+
+.card h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #24303e;
+  margin-bottom: 32px;
+}
+
+.card p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #808397;
+  margin-bottom: 40px;
+}
+
+.card a {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #24303e;
+  text-decoration: none;
+}
+
+.photo {
+  width: 50%;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.second-card {
+  padding: 0px 120px 59px 120px;
+  width: 50%;
+  text-align: center;
+}
+
+.design h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: #24554a;
+  margin-top: 397px;
+}
+
+.design p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3e7467;
+  margin-top: 27px;
+}
+
+.design {
+  background: url(assets/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+}
+
+.photography {
+  background: url(assets/image-photography.jpg);
+  background-repeat: no-repeat;
+}
+
+.photography h3 {
+  margin-top: 397px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: rgb(5, 44, 59, 0.75);
+}
+
+.photography p {
+  margin-top: 27px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #19536c;
+}
+
+.section-client {
+  background: #f2f2f2;
+  padding: 160px 165px;
+  text-align: center;
+}
+
+.section-client h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #a7aaad;
+  margin-bottom: 81px;
+}
+
+.client {
+  max-width: 350px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.client img {
+  border-radius: 50%;
+  width: 72px;
+  margin-bottom: 58px;
+}
+
+.client p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5b636d;
+  margin-bottom: 69px;
+}
+
+.client h4 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #24303e;
+  margin-bottom: 9px;
+}
+
+.client span {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #a7aaad;
+}
+
+.card-clients {
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+}
+
+.images img {
+  width: 25%;
+}
+
+footer {
+  background: #90d4c6;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+
+footer img {
+  margin-bottom: 40px;
+}
+
+.topics {
+  margin-bottom: 88px;
+  text-align: center;
+}
+
+.topics a {
+  text-decoration: none;
+  margin-right: 57px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #458d7e;
+}
+
+.topics a:last-child {
+  margin-right: 0px;
+}
+
+.social-media img {
+  margin-right: 28px;
+}
+
+.social-media img:last-child {
+  margin-right: 0px;
+}

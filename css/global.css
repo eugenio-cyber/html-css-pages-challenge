@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.reset-all {
+    all: unset;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.body {
+    background: #EFFFFD;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 0 32px;
+}
+
+.header {
+    padding: 15px 0;
+}
+
+.header__text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}

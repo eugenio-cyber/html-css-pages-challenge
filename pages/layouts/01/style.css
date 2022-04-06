@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e6eff5;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.announcement {
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+}
+
+.announcement-header {
+  background: #ffff;
+  max-width: 635px;
+  border-radius: 8px 8px 0px 0px;
+  padding: 40px;
+}
+
+.announcement-header h1 {
+  font-size: 24px;
+  color: #2ab3b1;
+  margin-bottom: 24px;
+}
+
+.announcement-header span {
+  color: #c0df33;
+  font-size: 18px;
+}
+
+.announcement-header p {
+  margin-top: 11px;
+  font-size: 16px;
+  color: #9aa7be;
+}
+
+.announcement-footer {
+  display: flex;
+  flex-direction: row;
+  background: #2ab3b1;
+}
+
+.subscription {
+  width: 318px;
+  padding: 40px;
+}
+
+.subscription > h2 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.value-month {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 32px;
+  color: #ffffff;
+  margin-right: 11px;
+}
+
+.month {
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.subscription p {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+
+.subscription a {
+  background: #c0df33;
+  padding: 15px 89px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+}
+
+.why-us {
+  width: 318px;
+  padding: 40px;
+  background: rgb(255, 255, 255, 0.15);
+}
+
+.why-us h2 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.why-us p {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.75;
+}

@@ -1,0 +1,97 @@
+body {
+  background: #ff7982;
+  padding: 70px 80px 0px 80px;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "Merriweather", serif;
+  margin-bottom: 10px;
+}
+
+p,
+a {
+  font-family: "Mulish", sans-serif;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 9px 30px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.card {
+  margin: 0px auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.call-to-action {
+  max-width: 645px;
+  background: rgb(9, 24, 63, 0.5);
+  box-shadow: 0px 14px 25px -10px rgba(9, 24, 63, 0.17);
+  border-radius: 10px;
+  color: #ffff;
+  padding: 57px;
+}
+
+.call-to-action p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.call-to-action a {
+  background: #ff8e4f;
+  color: #ffff;
+}
+
+.produto {
+  width: 501px;
+  border-radius: 5px;
+  background: #ffff;
+  color: #000;
+}
+
+.produto-1 {
+  margin-bottom: 60px;
+}
+
+.produto a {
+  background: #ffffff;
+  border: 1px solid #09183f;
+  color: #09183f;
+}
+
+.produto h2 {
+  font-size: 26px;
+  margin-bottom: 26px;
+  font-family: "Merriweather", serif;
+}
+
+.produto p {
+  margin-bottom: 38px;
+}
+
+img {
+  margin-top: 40px;
+}
+
+.card-conteudo {
+  padding: 51px 60px 0px 60px;
+}
+
+.countainer {
+  background: #f4f8fd;
+  padding-bottom: 30px;
+}
+
+.background {
+  background-image: url(./assets/background.png);
+  background-size: cover;
+  padding: 55px 0px;
+  margin-bottom: 70px;
+}

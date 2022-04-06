@@ -1,0 +1,78 @@
+body {
+  background: #e5e5e5;
+}
+
+.quote p {
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 38px;
+}
+
+.newsletter {
+  border-radius: 10px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  box-shadow: 0px 15px 30px -20px #d4dcf3;
+}
+
+.quote {
+  padding: 65px 86px;
+  max-width: 505px;
+  margin-bottom: 106px;
+}
+
+.alert {
+  max-width: 430px;
+  padding: 60px;
+}
+
+.card-light {
+  background: #ffff;
+  color: #101439;
+}
+
+.card-dark {
+  background: #101439;
+  color: #ffff;
+}
+
+.quote span,
+.alert span {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+.alert span {
+  margin-bottom: 10px;
+}
+
+.alert h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 13px;
+}
+
+.alert p {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 55px;
+}
+
+.alert a {
+  font-family: "Open Sans", sans-serif;
+
+  text-decoration: none;
+  padding: 25px 101px;
+  background: #ffff;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101439;
+}
