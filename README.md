@@ -1,5 +1,7 @@
 # Exercícios FrontEnd Módulo 01
 
+🏗️ Projeto e README em construção 🏗️
+
 ## Qual o objetivo do projeto?
 
 Meu objetivo neste repositório é te mostrar todos os projetos que consegui desenvolver com os conhecimentos que adquiri no meu primeiro na Cubos Academy.
