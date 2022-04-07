@@ -1,17 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #e6eff5;
-  font-family: "Karla", sans-serif;
+.main {
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
+  font-family: "Karla", sans-serif;
+  background: #e6eff5;
 }
 
 .announcement {
