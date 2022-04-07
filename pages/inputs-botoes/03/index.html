@@ -9,37 +9,50 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Rokkitt:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../css/global.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Login</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Log In</h1>
-      <p>
-        Log in to your account to upload or download pictures, videos or music.
-      </p>
-      <input type="text" placeholder="Enter your email address" />
-      <div class="container-password">
-        <a href="#">Forgot password?</a>
-        <button>
-          Next
-          <img src="assets/seta.svg" alt="Ícone seta" />
-        </button>
-      </div>
-      <div class="container-footer">
-        <span>Or log in with</span>
-        <div class="social-medias">
+    <header class="header">
+      <a href="../../home/index.html" class="reset-all cursor-pointer"
+        ><h2 class="header__text">Wesley | Projects</h2></a
+      >
+    </header>
+    <main class="main">
+      <div class="content">
+        <h1>Log In</h1>
+        <p>
+          Log in to your account to upload or download pictures, videos or
+          music.
+        </p>
+        <input type="text" placeholder="Enter your email address" />
+        <div class="content-password">
+          <a href="#">Forgot password?</a>
           <button>
-            <img src="assets/facebook.svg" alt="Logo do Facebook" />
-            Facebook
-          </button>
-          <button>
-            <img src="assets/google.svg" alt="Logo do Google" />
-            Google
+            Next
+            <img src="assets/seta.svg" alt="Ícone seta" />
           </button>
         </div>
-        <p>Don’t have an account yet? <a href="#">Sign up</a></p>
+        <div class="content-footer">
+          <span>Or log in with</span>
+          <div class="social-medias">
+            <button>
+              <img src="assets/facebook.svg" alt="Logo do Facebook" />
+              Facebook
+            </button>
+            <button>
+              <img src="assets/google.svg" alt="Logo do Google" />
+              Google
+            </button>
+          </div>
+          <p>Don’t have an account yet? <a href="#">Sign up</a></p>
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>

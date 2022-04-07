@@ -1,10 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
+.main {
   background: #f8efef;
   min-height: 100vh;
   display: flex;
@@ -12,17 +6,18 @@ body {
   align-items: center;
 }
 
-.container {
-  background: #ffffff;
-  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
-  border-radius: 15px;
-  width: 610px;
-  padding: 64px 89px 56px 89px;
+.content {
   display: flex;
   flex-direction: column;
+  width: 610px;
+  padding: 64px 89px 56px 89px;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
 }
 
-.container h1 {
+.content h1 {
   font-family: "Rokkitt", serif;
   font-weight: 700;
   font-size: 36px;
@@ -30,7 +25,7 @@ body {
   margin-bottom: 15px;
 }
 
-.container > p {
+.content > p {
   font-weight: 400;
   font-size: 16px;
   color: #161843;
@@ -38,7 +33,7 @@ body {
   margin-bottom: 52px;
 }
 
-.container input {
+.content input {
   all: unset;
   font-family: "Mulish", sans-serif;
   border: 1px solid #cad6e4;
@@ -48,18 +43,18 @@ body {
   color: #343945;
 }
 
-.container input::placeholder {
+.content input::placeholder {
   font-weight: 400;
   font-size: 18px;
   color: #717a91;
 }
 
-.container input:focus {
+.content input:focus {
   border: 1px solid #26394f;
   border-radius: 5px;
 }
 
-.container-password {
+.content-password {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,14 +62,14 @@ body {
   margin-bottom: 55px;
 }
 
-.container-password a {
+.content-password a {
   all: unset;
   font-weight: 400;
   font-size: 16px;
   color: #0c6787;
 }
 
-.container-password button {
+.content-password button {
   all: unset;
   background: #046586;
   border-radius: 5px;
@@ -87,18 +82,18 @@ body {
   color: #ffffff;
 }
 
-.container-password button img {
+.content-password button img {
   margin-left: 14px;
 }
 
-.container-footer {
+.content-footer {
   padding-top: 35px;
   border-top: 1px solid #cad6e4;
   font-family: "Mulish", sans-serif;
   text-align: center;
 }
 
-.container-footer span {
+.content-footer span {
   font-weight: 400;
   font-size: 14px;
   color: #838a9e;
@@ -133,13 +128,13 @@ body {
   margin-right: 10px;
 }
 
-.container-footer p {
+.content-footer p {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
 }
 
-.container-footer p a {
+.content-footer p a {
   all: unset;
   text-decoration-line: underline;
   color: #046586;

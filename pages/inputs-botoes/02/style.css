@@ -1,10 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
+.main {
   font-family: "Mulish", sans-serif;
   background-image: url(assets/background.png);
   background-position: center;
@@ -14,7 +8,7 @@ body {
   justify-content: center;
 }
 
-.container {
+.content {
   width: 739px;
   background: #ffffff;
   border-radius: 10px;
@@ -32,29 +26,29 @@ body {
   width: 31px;
 }
 
-.container-main {
+.content-main {
   padding: 0px 50px 30px 50px;
 }
 
-.container-main h1 {
+.content-main h1 {
   font-weight: 700;
   font-size: 22px;
   margin-bottom: 20px;
 }
 
-.container-main p {
+.content-main p {
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-.input-container {
+.input-content {
   margin-bottom: 50px;
   width: 100%;
   display: flex;
 }
 
-.input-container input {
+.input-content input {
   all: unset;
   padding: 15px 20px;
   margin-right: 10px;
@@ -66,11 +60,11 @@ body {
   color: #1f1e1e;
 }
 
-.input-container input:focus {
+.input-content input:focus {
   border: 1px solid #272727;
 }
 
-.input-container button {
+.input-content button {
   all: unset;
   background: #9677ef;
   border-radius: 5px;
@@ -81,35 +75,35 @@ body {
   flex-grow: 0;
 }
 
-.input-container button:hover {
+.input-content button:hover {
   background: rgba(150, 119, 239, 0.8);
   box-shadow: 0px 11px 20px rgba(150, 119, 239, 0.3);
 }
 
-.input-container input::placeholder {
+.input-content input::placeholder {
   color: #494949;
 }
 
-.text-container {
+.text-content {
   background: #f8f9fd;
   border-radius: 6px;
   margin-right: 8px;
 }
 
-.text-container span {
+.text-content span {
   font-weight: 700;
   font-size: 14px;
   color: #494949;
 }
 
-.text-container p {
+.text-content p {
   margin-top: 15px;
   font-weight: 400;
   font-size: 14px;
   color: #494949;
 }
 
-.text-container p > a {
+.text-content p > a {
   all: unset;
   font-weight: 600;
   font-size: 14px;

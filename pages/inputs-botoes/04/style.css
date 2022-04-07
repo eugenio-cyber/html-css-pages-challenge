@@ -1,10 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
+.main {
   min-height: 100vh;
   font-family: "Neuton", serif;
   background: #1f1c44;
@@ -13,17 +7,18 @@ body {
   align-items: center;
 }
 
-.container {
-  width: 517px;
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 60px 90px 50px 90px;
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 517px;
+  padding: 60px 90px 50px 90px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background: #ffffff;
 }
 
-.container h1 {
+.content h1 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 54px;
@@ -54,7 +49,7 @@ body {
   padding: 12px 11px;
 }
 
-.container p {
+.content p {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -108,12 +103,12 @@ body {
   box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
 }
 
-.container span {
+.content span {
   font-weight: 400;
   font-size: 16px;
 }
 
-.container span a {
+.content span a {
   all: unset;
   color: #5b86e6;
 }
