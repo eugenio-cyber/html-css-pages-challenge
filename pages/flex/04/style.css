@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.main {
   background: #e5e5e5;
   font-family: "Roboto", sans-serif;
   display: flex;

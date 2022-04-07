@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.main {
   background: #e5e5e5;
   font-family: "IBM Plex Sans", sans-serif;
   min-height: 100vh;
@@ -14,13 +14,13 @@ body {
   padding: 0 81px;
 }
 
-.container {
+.content {
   background: #ffffff;
   border-radius: 32px;
   padding: 90px 60px;
 }
 
-.container h1 {
+.content h1 {
   font-weight: 700;
   font-size: 28px;
   text-align: center;

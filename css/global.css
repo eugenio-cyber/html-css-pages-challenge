@@ -29,11 +29,13 @@
 }
 
 .header {
+    display: flex;
     padding: 15px 32px;
 }
 
 .header__text {
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 20px;
     color: #191A19;
 }
