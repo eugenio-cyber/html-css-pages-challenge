@@ -1,12 +1,3 @@
-/*
-cores:
-#EFFFFD
-#B8FFF9
-#85F4FF
-#42C2FF
-#191A19
-*/
-
 .hero {
     display: flex;
     justify-content: center;
@@ -14,7 +5,7 @@ cores:
     flex-direction: column;
     height: 335px;
     border-radius: 8px;
-    background: #B8FFF9;
+    background: #E5E5E5;
 }
 
 .hero__title {
@@ -33,29 +24,36 @@ cores:
 .list {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 30px;
     flex-wrap: wrap;
     width: 100%;
     padding-top: 60px;
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 370px;
-    margin-right: 40px;
+    padding-bottom: 30px;
     margin-bottom: 40px;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #F7F7F7;
 }
 
-.project--last {
-    margin-right: 0px;
+.project:hover {
+    transition: 0.4s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-
 .project__img {
     width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .project__text {
+    width: 100%;
+    text-align: left;
     padding: 30px;
 }
 
@@ -77,8 +75,14 @@ cores:
 .project__link {
     border-radius: 10px;
     padding: 15px;
-    background: #85F4FF;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    background: #DFDFDF;
     color: #191A19;
+}
+
+@media(max-width: 1270px) {
+    .project {
+        width: 400px;
+    }
 }
