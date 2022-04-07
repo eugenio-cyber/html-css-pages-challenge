@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.main {
   background: #fffaf2;
   display: flex;
   justify-content: center;
@@ -25,13 +25,13 @@ h2 {
   color: #212d59;
 }
 
-.container {
+.content {
   background: #ffffff;
   box-shadow: 0px 10px 25px rgba(220, 205, 181, 0.42);
   border-radius: 15px;
 }
 
-.container a {
+.content a {
   padding: 18px 82px;
   background: #2f2d2c;
   text-decoration: none;

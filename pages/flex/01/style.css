@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.main {
   min-height: 100vh;
   background: #e5e5e5;
   display: flex;
@@ -12,7 +12,7 @@ body {
   align-items: center;
 }
 
-.container {
+.content {
   display: flex;
   background: #e28625;
   border-radius: 8px;
@@ -55,10 +55,6 @@ h2 {
   border-radius: 25px;
   padding: 12px 31px;
 }
-
-/* .card-orange {
-  
-} */
 
 .card-orange a {
   color: #e28625;
