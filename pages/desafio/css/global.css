@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* modificadores de propiedades */
+.reset-all {
+  all: unset;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.border {
+  border-top: 1px solid rgb(51, 50, 61, 0.15);
+  border-bottom: 1px solid rgb(51, 50, 61, 0.15);
+}
+
+/* modificadores de texto */
+.heading-1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 50px;
+}
+
+.heading-2 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 32px;
+  color:#33323D;
+}
+
+.heading-3 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  color: #33323D;
+}
+
+.heading-4 {
+  font-family: "Public Sans", sans-serif;
+  color: rgb(51, 50, 61, 0.5);
+}
+
+.heading-5 {
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  color: rgb(51, 50, 61, 0.8);
+}
+
+.paragraph {
+  font-family: "Public Sans", sans-serif;
+  color: rgb(51, 50, 61, 0.8);
+}
+
+.paragraph--portfolio {
+  margin-bottom: 54px;
+}
+
+.paragraph--home {
+  margin-bottom: 24px;
+}
+
+.text-button {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+}
+
+.link {
+  margin-bottom: 16px;
+  font-family: "Public Sans", sans-serif;
+  color: #5FB4A2;
+}
+
+.link--last {
+  margin-bottom: 32px;
+}
+
+.text-navegation {
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+}
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #33323d;
+}
+
+/* container de todas as páginas */
+.container {
+  min-height: 100vh;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-top: 64px;
+  background: #f2f2f2;
+}
+
+/* header de todas as páginas */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 54px;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item {
+  margin-right: 42px;
+  list-style-type: none;
+}
+
+.header__item--last {
+  margin-right: 0px;
+}
+
+.header__link {
+  font-family: "Public Sans", sans-serif;
+  text-decoration: none;
+  font-size: 12px;
+  color: #33323d;
+}
+
+.header__link--atual {
+  color: #5fb4a2;
+}
+
+/* */
+.information {
+  display: flex;
+  min-height: 555px;
+}
+
+.information__img {
+  width: 50%;
+}
+
+.information__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.information__title {
+  margin-bottom: 28px;
+  color: #33323d;
+}
+
+.information__button {
+  padding: 17px 28px;
+}
+
+/*  */
+.interest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+.interest__title {
+  color: #33323d;
+}
+
+.interest__button {
+  padding: 17px 50px;
+}
+
+/* */
+.project {
+  display: flex;
+}
+
+.project__about {
+  margin-right: 125px;
+  padding-top: 48px;
+}
+
+.project__about .heading-2{
+  margin-bottom: 29px;
+}
+
+.project__about .paragraph {
+  margin-bottom: 54px;
+}
+
+.project__button {
+  padding: 17px 60px;
+}
+
+.project__preview .heading-2{
+  margin-bottom: 28px;
+}
+
+.project__preview .heading-5 {
+  margin-bottom: 40px;
+}
+
+.heading-5 .project__link {
+  text-decoration: underline;
+}
+
+.project__img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.project__img--last {
+  margin-bottom: 64px;
+}
+
+/* navegação entre páginas */
+.navegation {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+  margin-bottom: 115px;
+}
+
+.navegation__right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: 32px;
+}
+
+.navegation__right .navegation__text {
+  text-align: end;
+  margin-right: 32px;
+}
+
+.navegation__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 32px;
+}
+
+.navegation__left .navegation__text {
+  margin-left: 32px;
+}
+
+.hero__portfolio {
+  margin-top: 40px;
+  margin-bottom: 115px;
+  width: 100%;
+}
+
+/* footer das páginas */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 33px 165px 33px 165px;
+  background: #33323d;
+}
+
+.footer__list {
+  display: flex;
+}
+
+.footer__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.social__icon {
+  margin-right: 15px;
+}
+
+.social__icon--last {
+  margin-right: 0px;
+}
+
+.footer__item {
+  margin-right: 42px;
+  list-style-type: none;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer__logo {
+  margin-right: 48px;
+}

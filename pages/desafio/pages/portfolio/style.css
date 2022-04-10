@@ -1,0 +1,25 @@
+.information {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.information--reverse {
+    flex-direction: row-reverse;
+}
+
+.information--reverse .information__img {
+    margin-right: 0;
+    margin-left: 125px;
+}
+
+.information__img {
+    margin-right: 125px;
+}
+
+.information__paragraph {
+    margin-bottom: 54px;
+}
+
+.interest {
+    margin-top: 110px;
+}
