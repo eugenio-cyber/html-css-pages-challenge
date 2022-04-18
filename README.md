@@ -1,6 +1,4 @@
-# Exercícios FrontEnd Módulo 01
-
-🏗️ Projeto e README em construção 🏗️
+# Exercícios e desafio de FrontEnd Módulo 01
 
 ## Qual o objetivo do projeto?
 
