@@ -1,12 +1,14 @@
-### <center> Exercícios e desafio de FrontEnd Módulo 01 </center>
-
+<h3 align="center">
+ Exercícios e desafio de FrontEnd Módulo 01
+</h3>
+  
 <br>
 <p align="center">
 <img src="https://img.shields.io/badge/status-em%20desenvolvimento-orange?style=for-the-badge"/>
 </p>
 <br>
 
-## 🔗 Acesso ao projeto
+## 🔗 Quer acessar o projeto?
 
 [Clique aqui para ver](https://eugenio-cyber.github.io/cubos-academy-frontend-modulo01/)
 
@@ -24,3 +26,7 @@ Meu objetivo neste repositório é te mostrar todos os projetos que consegui des
   <img height=30 src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img height=30 src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </div>
+
+## 💬 Feedback
+
+Envie um email para esse endereço <eugenio3@email.com> para dar um feedback, sugerir alguma mudança ou dar uma opnião sobre o projeto.
