@@ -1,4 +1,4 @@
-### Exercícios e desafio de FrontEnd Módulo 01
+### <center> Exercícios e desafio de FrontEnd Módulo 01 </center>
 
 <br>
 <p align="center">
