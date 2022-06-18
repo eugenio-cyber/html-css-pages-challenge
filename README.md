@@ -1,5 +1,5 @@
 <h3 align="center">
- Exercícios e desafio de FrontEnd Módulo 01
+ Módulo 01 - Exercícios e desafio de FrontEnd 
 </h3>
   
 <br>
