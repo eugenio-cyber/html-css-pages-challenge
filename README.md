@@ -1,16 +1,16 @@
 <h3 align="center">
- Módulo 01 - Exercícios e desafio de FrontEnd 
+ Módulo 01 - Desafios FrontEnd 
 </h3>
-  
-<br>
+
 <p align="center">
-<img src="https://img.shields.io/badge/status-conclu%C3%ADdo-green?style=for-the-badge"/>
+ <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-green?style=for-the-badge"/>
 </p>
+
 <br>
 
 ## 🔗 Quer acessar o projeto?
 
-[Clique aqui para ver](https://eugenio-cyber.github.io/html-css-challenges/)
+Clique [aqui](https://eugenio-cyber.github.io/html-css-challenges/) para acessar o projeto.
 
 ## 🏹 Qual o objetivo do projeto?
 
@@ -29,4 +29,4 @@ Meu objetivo neste repositório é te mostrar todos os projetos que consegui des
 
 ## 💬 Feedback
 
-Envie um email para esse endereço <eugenio3@email.com> para dar um feedback, sugerir alguma mudança ou dar uma opnião sobre o projeto.
+Envie um email para esse endereço <wesleyeugenio3@gmail.com> para dar um feedback, sugerir alguma mudança ou dar uma opnião sobre o projeto.
