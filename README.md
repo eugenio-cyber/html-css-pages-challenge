@@ -10,7 +10,7 @@
 
 ## 🔗 Quer acessar o projeto?
 
-Clique [aqui](https://eugenio-cyber.github.io/html-css-challenges/) para acessar o projeto.
+Clique [aqui](https://eugenio-cyber.github.io/html-css-pages-challenge/) para acessar o projeto.
 
 ## 🏹 Qual o objetivo do projeto?
 
